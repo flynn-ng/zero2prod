@@ -17,6 +17,10 @@
             nativeBuildInputs = with pkgs; [
               rustup
               pkg-config
+              cargo-watch
+              cargo-llvm-cov
+              cargo-nextest
+              cargo-audit
               lld
             ];
 

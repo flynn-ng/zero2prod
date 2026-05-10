@@ -1,4 +1,7 @@
 /target
 
+/.cargo/*
+!/.cargo/config.toml
+
 .direnv
 .rustup
